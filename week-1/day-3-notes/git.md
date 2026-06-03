@@ -13,10 +13,11 @@ pwd = present directory.
 cd = can move from directory/folder.
 cd week3 = can move forward
 cd .. for moving backward.
-mkdir = to create new directory.
+mkdir = to create new directory/folder.
 clear = to erase previous commands.
 Ls = to show content of current directory.
 rm = to delete directory conntent.
+touch = to create to new files.
 IDE = Integrated Devlopment Enviroment. exp : VS Code.
 .md = Markdown. This is a extension of documents.
 Git status = to check staged changes.
