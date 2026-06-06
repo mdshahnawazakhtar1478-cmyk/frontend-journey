@@ -24,3 +24,4 @@ Git status = to check staged changes.
 Git add . = to add changes to staging or stage area.
 Git commit -m "" = to add a comment for a changes.
 Git push = push the code to repo.
+Git mv = move files to new dir. ex- mv file dir
