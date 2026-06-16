@@ -19,6 +19,14 @@ header section p:nth-child(2) {
     color: blue;
 }
 
+header nav {
+    width:50%;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
 
 #about, #quote, #journey, #routine, #skills, #projects, #interests, #goals, #contacts {
     width: 100%;
