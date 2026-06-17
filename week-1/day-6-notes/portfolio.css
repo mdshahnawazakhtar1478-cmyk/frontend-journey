@@ -31,12 +31,12 @@ header > nav {
 /**header section end **/
 
 
-#routine, #skills, #projects, #interests, #goals, #contacts {
+#skills, #projects, #interests, #goals, #contacts {
     width: 100%;
     height: 700px;
 }
 
-#routine, #skills, #projects, #interests, #goals, #contacts {
+#skills, #projects, #interests, #goals, #contacts {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,3 +120,18 @@ main > section:nth-child(4) > section > h2 {
     text-align:center;
 }
 /** Journey section end **/
+
+/** Routine section start **/
+
+main > section:nth-child(5) {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > section:nth-child(5) > section {
+     width:fit-content;
+}
+ /**Rotine section end **/
