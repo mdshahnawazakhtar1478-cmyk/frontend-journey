@@ -28,12 +28,12 @@ header > nav {
 }
 
 
-#quote, #journey, #routine, #skills, #projects, #interests, #goals, #contacts {
+#journey, #routine, #skills, #projects, #interests, #goals, #contacts {
     width: 100%;
     height: 700px;
 }
 
-#quote, #journey, #routine, #skills, #projects, #interests, #goals, #contacts {
+#journey, #routine, #skills, #projects, #interests, #goals, #contacts {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,4 +74,20 @@ main > section:nth-child(2) > section:first-child {
 
 main > section:nth-child(2) > section > h2 {
      text-align:center;
+}
+
+main > section:nth-child(3) {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > section:nth-child(3) > section {
+     width:50%
+}
+
+main > section:nth-child(3) > section > h2 {
+     text-align:center
 }
