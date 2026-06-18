@@ -28,15 +28,15 @@ header > nav {
     align-items:center;
     justify-content:space-around;
 }
-/**header section end **/
+/**header end **/
 
 
-#projects, #interests, #goals, #contacts {
+#interests, #goals, #contacts {
     width: 100%;
     height: 700px;
 }
 
-#projects, #interests, #goals, #contacts {
+#interests, #goals, #contacts {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,3 +150,22 @@ main > section:nth-child(5) > section {
     width:fit-content;
  }
  /**Skill section end **/
+
+ /** Projects section start **/
+
+ main > section:nth-child(7) {
+     width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ main > section:nth-child(7) > section {
+    width:fit-content;
+ }
+
+ main > section:nth-child(7) > section > h2,h3 {
+    text-align: center;
+ }
+ /**projects section end **/
