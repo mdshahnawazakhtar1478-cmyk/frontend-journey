@@ -211,10 +211,17 @@ main > section:nth-child(10) {
  }
 
  main > section:nth-child(10) > section > h2 {
-    text-align:center
+    text-align:center;
  }
 
 main > section:nth-child(10) > section > p {
-    text-align:center
+    text-align:center;
 }
 /**Contacts section end **/
+
+/**Footer section start **/
+
+footer > p {
+    text-align:center;
+}
+
