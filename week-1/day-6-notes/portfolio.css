@@ -31,12 +31,12 @@ header > nav {
 /**header end **/
 
 
-#goals, #contacts {
+#contacts {
     width: 100%;
     height: 700px;
 }
 
-#goals, #contacts {
+#contacts {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,3 +188,22 @@ main > section:nth-child(5) > section {
     text-align:center;
  }
  /** Interest section end **/
+
+  /**Goals section start **/
+
+  main > section:nth-child(9) {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ main > section:nth-child(9) > section {
+    width:fit-content;
+ }
+
+ main > section:nth-child(9) > section > h2 {
+    text-align:center;
+ }
+/**Goals section end **/
