@@ -31,12 +31,12 @@ header > nav {
 /**header end **/
 
 
-#interests, #goals, #contacts {
+#goals, #contacts {
     width: 100%;
     height: 700px;
 }
 
-#interests, #goals, #contacts {
+#goals, #contacts {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,7 +154,7 @@ main > section:nth-child(5) > section {
  /** Projects section start **/
 
  main > section:nth-child(7) {
-     width: 100%;
+    width: 100%;
     height: 700px;
     display: flex;
     align-items: center;
@@ -169,3 +169,22 @@ main > section:nth-child(5) > section {
     text-align: center;
  }
  /**projects section end **/
+
+ /** Interest section start **/
+
+ main > section:nth-child(8) {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ main > section:nth-child(8) > section {
+    width:fit-content;
+ }
+
+ main > section:nth-child(8) > section > h2 {
+    text-align:center;
+ }
+ /** Interest section end **/
