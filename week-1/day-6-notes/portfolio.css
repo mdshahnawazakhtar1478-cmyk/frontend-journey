@@ -15,17 +15,17 @@
     align-items: center;
 }
 
-header > section {
+header > section:first-child {
     width:50%;
     height:100px;
 }
 
-header > section > p:first-child {
+header > section:first-child > p:first-child {
     font-weight: bold;
     font-size:24px;
 }
 
-header > section > p:nth-child(2) {
+header > section:first-child > p:nth-child(2) {
     color: blue;
 }
 
@@ -38,7 +38,7 @@ header > nav {
 }
 /**header end **/
 
-/**about section start **/
+/**hero section start **/
 
 main > section:first-child {
     width: 100%;
@@ -48,18 +48,26 @@ main > section:first-child {
     justify-content: center;
 }
 
-main > section > section:first-child {
+main > section:first-child > section:first-child {
      width:50%;
      height:min-content;
      padding:10px 20px 10px 10px;
 }
 
-main > section > section:nth-child(2) {
+main > section:first-child > section:nth-child(2) {
      width:200px;
      height:267px;
      margin:10px 10px 10px 20px;
      padding:10px;
+}   
+
+main > section:first-child > section:nth-child(2) > img {
+    width:200px;
+    height:auto;
 }
+/**hero section end **/
+
+/**about section start **/
 
 main > section:nth-child(2) {
     width: 100%;
@@ -73,7 +81,7 @@ main > section:nth-child(2) > section:first-child {
      width:70%;
 }
 
-main > section:nth-child(2) > section > h2 {
+main > section:nth-child(2) > section:first-child > h2 {
      text-align:center;
 }
 /** about section end **/
@@ -89,11 +97,11 @@ main > section:nth-child(3) {
     justify-content: center;
 }
 
-main > section:nth-child(3) > section {
+main > section:nth-child(3) > section:first-child {
      width:50%
 }
 
-main > section:nth-child(3) > section > h2 {
+main > section:nth-child(3) > section:first-child > h2 {
      text-align:center
 }
 /** quote section end **/
@@ -108,11 +116,11 @@ main > section:nth-child(4) {
     justify-content: center;
 }
 
-main > section:nth-child(4) > section {
+main > section:nth-child(4) > section:first-child {
     width:60%;
 }
 
-main > section:nth-child(4) > section > h2 {
+main > section:nth-child(4) > section:first-child > h2 {
     text-align:center;
 }
 /** Journey section end **/
@@ -127,7 +135,7 @@ main > section:nth-child(5) {
     justify-content: center;
 }
 
-main > section:nth-child(5) > section {
+main > section:nth-child(5) > section:first-child {
      width:fit-content;
 }
  /**Rotine section end **/
@@ -142,7 +150,7 @@ main > section:nth-child(5) > section {
     justify-content: center;
  }
 
- main > section:nth-child(6) > section {
+ main > section:nth-child(6) > section:first-child {
     width:fit-content;
  }
  /**Skill section end **/
@@ -157,11 +165,11 @@ main > section:nth-child(5) > section {
     justify-content: center;
  }
 
- main > section:nth-child(7) > section {
+ main > section:nth-child(7) > section:first-child {
     width:fit-content;
  }
 
- main > section:nth-child(7) > section > h2,h3 {
+ main > section:nth-child(7) > section:first-child > h2,h3 {
     text-align: center;
  }
  /**projects section end **/
@@ -176,11 +184,11 @@ main > section:nth-child(5) > section {
     justify-content: center;
  }
 
- main > section:nth-child(8) > section {
+ main > section:nth-child(8) > section:first-child {
     width:fit-content;
  }
 
- main > section:nth-child(8) > section > h2 {
+ main > section:nth-child(8) > section:first-child > h2 {
     text-align:center;
  }
  /** Interest section end **/
@@ -195,11 +203,11 @@ main > section:nth-child(5) > section {
     justify-content: center;
  }
 
- main > section:nth-child(9) > section {
+ main > section:nth-child(9) > section:first-child {
     width:fit-content;
  }
 
- main > section:nth-child(9) > section > h2 {
+ main > section:nth-child(9) > section:first-child > h2 {
     text-align:center;
  }
 /**Goals section end **/
@@ -214,15 +222,15 @@ main > section:nth-child(10) {
     justify-content: center;
  }
 
- main > section:nth-child(10) > section {
+ main > section:nth-child(10) > section:first-child {
     width:60%;
  }
 
- main > section:nth-child(10) > section > h2 {
+ main > section:nth-child(10) > section:first-child > h2 {
     text-align:center;
  }
 
-main > section:nth-child(10) > section > p {
+main > section:nth-child(10) > section:first-child > p {
     text-align:center;
 }
 /**Contacts section end **/
@@ -232,4 +240,4 @@ main > section:nth-child(10) > section > p {
 footer > p {
     text-align:center;
 }
-
+/**Footer section end **/
