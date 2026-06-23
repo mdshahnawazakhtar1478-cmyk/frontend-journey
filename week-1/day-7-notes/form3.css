@@ -1,0 +1,11 @@
+form:nth-child(2) > div {
+    display:flex;
+    flex-direction:column;
+    width:200px"
+}
+
+form:nth-child(3) > div {
+    display:flex;
+    flex-direction:column;
+    width:200px"
+}

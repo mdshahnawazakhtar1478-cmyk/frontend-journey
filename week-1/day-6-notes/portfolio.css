@@ -220,6 +220,7 @@ main > section:nth-child(10) {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
  }
 
  main > section:nth-child(10) > section:first-child {
@@ -234,6 +235,29 @@ main > section:nth-child(10) > section:first-child > p {
     text-align:center;
 }
 /**Contacts section end **/
+
+main > section:nth-child(10) > section:nth-child(2) {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+main > section:nth-child(10) > section:nth-child(2) > form {
+    width: 200px;
+    height: auto;
+    padding:12px 12px;
+    border: 2px solid grey;
+}
+
+main > section:nth-child(10) > section:nth-child(2) > form > div {
+    display:flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+
+main > section:nth-child(10) > section:nth-child(2) > form > button {
+    margin:8px 0;
+}
 
 /**Footer section start **/
 
