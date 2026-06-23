@@ -1,11 +1,22 @@
-form:nth-child(2) > div {
-    display:flex;
-    flex-direction:column;
-    width:200px"
+body > form {
+    /* display: flex;
+    /* flex-direction: column;*/
+    border:2px solid grey;
+    width:400px;
+    margin:auto auto;
 }
 
-form:nth-child(3) > div {
+body > form > section {
     display:flex;
     flex-direction:column;
-    width:200px"
+    align-items: center;
+}
+
+body > form > section > div {
+    border:2px solid grey;
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    padding:8px 12px;
+    margin:12px 0px;
 }

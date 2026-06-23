@@ -5,7 +5,7 @@
 
     <title>Complete Html form</title>
 
-    <link rel="stylesheet" href="week-1/day-7-notes/form3.css"/>
+    <link rel="stylesheet" href="form3.css"/>
 
 </head>
 
@@ -13,95 +13,141 @@
 
     <form>
 
-    <h2>Complete Html form</h2>
+    <section>
 
-    <div style="display:flex;flex-direction:column;width:200px">
+        <h2>Complete Html form</h2>
 
-    <label>Full Name:</label>
-    <input type="text" placeholder="Full Name" name="fullName;"/><br><br>
-
+    <div>
+        <label>Full Name:</label>
+        <input type="text" placeholder="Full Name" name="fullName;"/>
     </div>
 
-    <div style="display:flex;flex-direction:column;width:200px">
-
-    <label>Password:</label>
-    <input type="password" placeholder="password" name="password;"/><br><br>
-
+    <div>
+        <label>Password:</label>
+        <input type="password" placeholder="password" name="password;"/>
     </div>
 
-    <div style="display:flex;flex-direction:column;width: 200px;">
-
-    <label>E-mail:</label>
-    <input type="email" placeholder="E-mail" name="email;"/><br><br>
-
+    <div>
+        <label>E-mail:</label>
+        <input type="email" placeholder="E-mail" name="email;"/>
     </div>
 
-    <div style="display:flex;flex-direction:column;width:200px;">
+    <div>
 
     <label>Phone:</label>
-    <input type="tel" placeholder="Phone Number"/><br><br>
+    <input type="tel" placeholder="Phone Number"/>
 
     </div>
 
-    <div style="display:flex;flex-direction:column;width:200px;">
+    <div>    
+        <label>Website:</label>
+        <input type="url" placeholder="website"/>
+    </div>
+
+    <div>
+        <label>Age:</label>
+        <input type="number" placeholder="Age"/>
+    </div>
+
+    <div>
+        <label>search:</label>
+        <input type="search" placeholder="search"/>
+    </div>
+
+    <div>   
+        <label>Date:</label>
+        <input type="date"/>
+    </div>
+
+    <div>
+        <label>Time:</label>
+        <input type="time"/>
+    </div>
+
+    <div>
+        <label>Date & Time:</label>
+        <input type="datetime-local"/>
+    </div>
+
+    <div>
+        <label>Month:</label>
+        <input type="month"/>
+    </div>
+
+    <div>
+        <label>Week:</label>
+        <input type="week"/>
+    </div>
+
+    <div>
+        <label>Favorite color:</label>
+        <input type="color"/>
+    </div>  
+
+    <div>
+        <label>Experience level:</label>
+        <input type="range" min="0" max="10"/>
+    </div>
+
+    <div>
+        <p>Gender:</p>
     
-    <label>Website:</label>
-    <input type="url" placeholder="website"/><br><br>
+        <div>
+            <input type="radio" id="male" value="Male" name="gender"/>
+            <label for="male">Male</label>
+        </div>
+
+        <div>
+            <input type="radio" id="female" value="Female" name="gender"/>
+            <label for="female">Female</label>
+        </div>
 
     </div>
 
-    <label>Age:</label>
-    <input type="number" placeholder="Age"/><br><br>
+    <div>
+        <p>Skill:</p>
 
-    <label>search:</label>
-    <input type="search" placeholder="search"/><br><br>
-    
-    <label>Date:</label>
-    <input type="date"/><br><br>
+        <div>
+            <input type="checkbox" value="HTML" name="skills" id="html"/>
+            <label for="HTML">HTML</label>
+        </div> 
+        
+        <div>
+            <input type="checkbox" value="CSS" name="skills" id="css"/>
+            <label for="CSS">CSS</label>
+        </div>
 
-    <label>Time:</label>
-    <input type="time"/><br><br>
+        <div>
+            <input type="checkbox" value="JavaScript" name="skills" id="javasript"/>
+            <label for="JavaScript">JavaScript</label>
+        </div>
 
-    <label>Date & Time:</label>
-    <input type="datetime-local"/><br><br>
+    </div>
 
-    <label>Month:</label>
-    <input type="month"/><br><br>
+    <div>
+        <label>Upload Resume</label>
+        <input type="file"/>
+    </div>
 
-    <label>Week:</label>
-    <input type="week"/><br><br>
-
-    <label>Favorite color:</label>
-    <input type="color"/><br><br>   
-
-    <label>Experience level:</label>
-    <input type="range" min="0" max="10"/><br><br>
-
-    <label>Gender:</label><br>
-    <input type="radio" name="gender"/>Male
-    <input type="radio" name="gender"/>Female<br><br>
-
-    <label>Skill:</label><br>    
-    <input type="checkbox"/>HTML 
-    <input type="checkbox"/>CSS
-    <input type="checkbox"/>JavaScript<br><br>
-
-    <label>Upload Resume</label>
-    <input type="file"/><br><br>
-
+    <div>
     <label>City:</label>
-    <select>
-        <option>Select City</option>
-        <option>Mumbai</option>
-        <option>Delhi</option>
-        <option>Kolkata</option>
-        <option>Chennai</option>
-    </select><br><br>
+        <select>
+            <option>Select City</option>
+            <option>Mumbai</option>
+            <option>Delhi</option>
+            <option>Kolkata</option>
+            <option>Chennai</option>
+        </select>
+    </div>
 
-    <label>Message:</label><br>
-    <textarea rows="5" cols="30"></textarea><br><br>
+    <div>
+        <label>Message:</label><br>
+        <textarea rows="5" cols="30"></textarea>
+    </div>
 
-    <button>Submit</button>
+        <button>Submit</button>
+
+    </section>    
 
     </form>
 
