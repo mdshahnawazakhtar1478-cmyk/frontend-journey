@@ -13,26 +13,27 @@
     <form>
 
         <section>
-    
-        <p>Please continue to log in</p>
+
+            <h2>Log In</h2>
+            <p>Please continue to log in</p>
 
         <div>
 
             <label for="name">User Name or e-mail id:</label>
-            <input type="text" placeholder="User Name or e-mail id" id="name"/>
+            <input type="text" placeholder="User Name or e-mail id" name="name" id="name"/>
 
         </div>
 
         <div>
 
             <label for="password">Password:</label>
-            <input type="password" placeholder="password" id=password/>
+            <input type="password" placeholder="password" name="password" id=password/>
 
         </div>
 
         <div>
                 <label>
-                    <input type="checkbox">
+                    <input type="checkbox" name="remember">
                     Remember Me
                 </label>
 
@@ -40,7 +41,7 @@
 
         </div>
 
-        <button type="submit">Login</button>
+        <button type="submit" name="login">Login</button>
 
         </section>
 
