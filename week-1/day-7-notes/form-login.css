@@ -8,6 +8,7 @@ body > form > section {
     display:flex;
     flex-direction: column;
     align-items: center;
+    background-color: azure;
 }
 
 body > form > section > div {
@@ -17,4 +18,5 @@ body > form > section > div {
     border:2px solid grey;
     padding:12px 12px;
     margin:12px 0px;
+    background-color: aliceblue;
 }
