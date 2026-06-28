@@ -1,0 +1,25 @@
+body > form {
+    /* border:2px solid grey; */
+}
+
+body > form > section {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width: 300px;
+    margin: auto auto;
+    padding: 12px 12px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    background-color: rgb(234, 228, 217);
+} 
+
+body > form > section > div {
+    display:flex;
+    flex-direction:column;
+    margin: 12px 10px;
+    padding: 12px 12px;
+    border:2px solid grey;
+    border-radius: 20px;
+    background-color: rgb(240, 238, 238);
+}
