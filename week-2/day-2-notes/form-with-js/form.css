@@ -4,6 +4,7 @@ body > form {
     border:2px solid grey;
     width:400px;
     margin:auto auto;
+    border-radius: 30px;
 }
 
 body > form > section {
@@ -19,4 +20,5 @@ body > form > section > div {
     flex-direction: column;
     padding:8px 12px;
     margin:12px 0px;
+    border-radius:25px;
 }
