@@ -37,3 +37,10 @@ if (!email.includes("@")) {
     return;
 }
 
+/* Validate Phone Number */
+
+if (phone.length < 10) {
+    alert("Phone number must be atleast 10 digits long.");
+    return;
+}
+
