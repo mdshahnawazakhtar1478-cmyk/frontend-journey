@@ -51,3 +51,9 @@ if (!github.startsWith("https://github.com/")){
     return;
 }
 
+/* Validate Message */
+
+if (message.length < 30) {
+    alert("Message must be at least 30 characters long.");
+    return;
+}
