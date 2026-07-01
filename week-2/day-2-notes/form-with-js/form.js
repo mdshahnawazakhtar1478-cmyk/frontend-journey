@@ -29,3 +29,11 @@ if (fullName.length < 3) {
     alert("Full Name must be atleast 3 characters long.");
     return;
 }
+
+/* Validate Email */
+
+if (!email.includes("@")) {
+    alert("Please enter a valid email address.");
+    return;
+}
+
