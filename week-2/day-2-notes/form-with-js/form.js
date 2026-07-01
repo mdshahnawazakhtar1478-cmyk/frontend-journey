@@ -44,3 +44,10 @@ if (phone.length < 10) {
     return;
 }
 
+/* Validate GitHub URL */
+
+if (!github.startsWith("https://github.com/")){
+    alert("Please enter a valid GitHub URL.");
+    return;
+}
+
