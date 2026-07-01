@@ -16,5 +16,16 @@ form.addEventListener("submit",function (event){
     ) {
         event.preventDefault();
         alert("Please fill in all this fields before submitting the form.");
+        return;
     }
+        alert("Form submitted successfully!");
+
+    
 });
+
+/* Validate Full Name */
+
+if (fullName.length < 3) {
+    alert("Full Name must be atleast 3 characters long.");
+    return;
+}
