@@ -7,8 +7,8 @@ function myFunction(event) {
 
     const username = document.querySelector("#name").value.trim();
     const password = document.querySelector("#email").value.trim();
-    const number = document.querySelector("#phone").value.trim();
-    const age = document.querySelector("#age").value.trim();
+    const number = document.querySelector("#phone").value;
+    const age = document.querySelector("#age").value;
 
     console.log({ username, password, number, age })
 }
