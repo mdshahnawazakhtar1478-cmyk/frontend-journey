@@ -1,12 +1,12 @@
-const body = document.querySelector("body");
+const form = document.querySelector("form");
 
-body.addEventListener("submit", myFunction);
+form.addEventListener("submit", myFunction);
 
 function myFunction(event) {
     event.preventDefault();
 
-    const gender = document.querySelectorAll("#gender")[0].value.trim();
+    const gender = document.querySelector('input[name="gender"]:checked');
 
-    console.log(gender);
+    console.log(gender.id);
 
 }
