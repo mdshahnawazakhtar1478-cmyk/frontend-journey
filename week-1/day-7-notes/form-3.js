@@ -19,11 +19,12 @@ function myFunction(event) {
     const week = document.querySelector(".week").value;
     const color = document.querySelector(".color").value;
     const experience = document.querySelector(".experience").value;
-    const gender = document.querySelectorAll('input[name="gender"]:checked');
-    const skills = document.querySelectorAll('input[name="skills"]:checked');
-    const uploadResume = document.querySelector(".uploadResume").files[0];
-    const city = document.querySelectorAll(".city").value;
+    const gender = document.querySelector('input[name="gender"]:checked');
+    const skills = document.querySelector('input[name="skills"]:checked');
+    const files = document.querySelector(".uploadResume").files;
+    const resumeFile = files[0];
+    const city = document.querySelector("#city").value;
     const message = document.querySelector(".message").value.trim();
 
-    console.log({ fullName, password, email, phone, website, age, search, date, time, dateTimeLocal, month, week, color, experience, gender, skills, uploadResume, city, message })
+    console.log({ fullName, password, email, phone, website, age, search, date, time, dateTimeLocal, month, week, color, experience, gender, skills, files, resumeFile, city, message })
 }
