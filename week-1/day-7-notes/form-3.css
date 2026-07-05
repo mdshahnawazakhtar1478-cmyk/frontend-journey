@@ -12,7 +12,7 @@ body > form > section {
     align-items: center;
 }
 
-body > form > section > div {
+body > form > section > div, fieldset {
     border:2px solid grey;
     width: 300px;
     display:flex;
