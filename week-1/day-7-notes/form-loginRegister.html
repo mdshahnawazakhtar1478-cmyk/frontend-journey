@@ -5,6 +5,8 @@
 
     <link rel="stylesheet" href="form-loginRegister.css"/>
 
+    <script src="form-loginRegister.js" defer></script>
+
 </head>
 
 <body>
@@ -18,22 +20,22 @@
 
         <div>
 
-            <label>User name or e-mail id</label>
+            <label for="name">User name or e-mail id</label>
             <input type="text" id="name" name="name" placeholder="user name or e-mail id"/>
 
         </div>
 
         <div>
 
-            <label>Password</label>
-            <input type="password" id="password" placeholder="password"/>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="password" name="password"/>
 
         </div>
 
         <div>
 
-            <label>
-                <input type="checkbox" name="remember"/>
+            <label for="remember">
+                <input type="checkbox" name="remember" id="remember"/>
                 Remember Me
             </label>
 
@@ -55,12 +57,5 @@
 
 
 </body>
-
-
-
-
-
-
-
 
 </html>
