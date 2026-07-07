@@ -1,0 +1,12 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Profile illustration for Md Shahnawaz Akhtar</title>
+  <desc id="desc">A modern abstract profile card with the initials SA.</desc>
+  <rect width="720" height="720" rx="56" fill="#EEF3FF"/>
+  <circle cx="360" cy="292" r="132" fill="#355CFF" opacity="0.95"/>
+  <path d="M155 631C183.5 512.5 263.5 455 360 455C456.5 455 536.5 512.5 565 631" fill="#172033"/>
+  <circle cx="188" cy="174" r="64" fill="#11A37F" opacity="0.18"/>
+  <circle cx="558" cy="174" r="90" fill="#355CFF" opacity="0.12"/>
+  <circle cx="562" cy="548" r="52" fill="#11A37F" opacity="0.18"/>
+  <text x="360" y="324" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="120" font-weight="800" fill="white">SA</text>
+  <rect x="96" y="88" width="528" height="544" rx="44" stroke="#D9E0EE" stroke-width="8"/>
+</svg>
