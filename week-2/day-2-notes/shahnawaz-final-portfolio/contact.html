@@ -51,6 +51,82 @@
 
         </section>
 
+        <section class="section-padding contact-section" id="contact-form">
+
+            <div class="container contact-grid">
+                <aside class="contact-info" aria-label="contact information">
+                    <h2>Find me online</h2>
+                    <p>
+                        I am documenting my frontend learning progress through GitHub and improving this portfolio as I learn more.
+                    </p>
+                    <div class="contact-links">
+                        <a href="https://github.com/mdshahnawazakhtar1478-cmyk" target="_blank" rel="noopener noreferrer">View GitHub profile</a>
+                        <a href="https://www.linkedin.com/in/md-shahnawaz-akhtar-9a1b4a1b7/" target="_blank" rel="noopener noreferrer">Connect on Linkedin</a>
+                    </div>
+                </aside>
+
+                <form class="contact-form" action="#" method="post">
+                    <h2>Send a message</h2>
+
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" required/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for email>Email Address</label>
+                        <input type="text" id="email" name="email" placeholder="Enter your email" required/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span>(Optional)</span></label>
+                        <input input="tel" id="phone" name="phone" placeholder="Enter your phone number"/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reason">Reason for Contact</label>
+                        <select id="reason" name="reason" required>
+                            <option value="">Select a reason</option>
+                            <option value="feedback">Portfolio feeedback</option>
+                            <option value="learning">Learning guidance</option>
+                            <option value="collaboration">Collaboration idea</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <fieldset>
+                        <legend>Preferred contact method</legend>
+                        <div class="radio-group">
+                            <label for="contact-email">
+                                <input type="radio" id="contact-email" name="contactMethod" value="email" required/>
+                                Email
+                            </label>
+                            <label for="contact-phone">
+                                <input type="radio" id="contact-phone" name="contactMethod" value="phone"/>
+                                Phone
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" row="6" placeholder="Write your message here" required></textarea>
+                    </div>
+
+                    <label class="checkbox-label" for="permission">
+                        <input type="checkbox" id="permission" name="permission" required/>
+                        I agree to be contacted regarding this message.
+                    </label>
+
+                    <button class="button button-primary" type="submit">Submit Message</button>
+                    <p class="form-note">This is a static beginner project form. It is designed for layout and accessibility practice only.</p>
+
+                </form>
+
+            </div>
+
+        </section>
+
     </main>
 
 </body>
