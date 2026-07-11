@@ -1,137 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Contact Md Shahnawaz Akhtar, an aspiring frontend developer learning HTML, CSS, JavaScript, and Git." />
-    <title>Contact | Md Shahnawaz Akhtar</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Md Shahnawaz Akhtar, an aspiring frontend developer learning HTML, CSS, JavaScript, and Git." />
+  <title>Contact | Md Shahnawaz Akhtar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <a class="skip-link" href="#main-content">Skip to main cotent</a>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="index.html" aria-label="Md Shahnawaz Akhtar home">
+        <span class="brand-mark">SA</span>
+        <span>
+          <strong>Md Shahnawaz Akhtar</strong>
+          <small>Aspiring Frontend Developer</small>
+        </span>
+      </a>
 
-    <header class="site-header">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-        <div class="container header-conntent">
-            <a class="brand" href="index.html" aria-label="Md Shahnawaz Akhtar home">
-                <span class="brand-mark">SA</span>
-                <strong>Md Shahnawaz Akhtar</strong>
-                <small>Aspiring Frontend Developer</small>
-            </a>
+  <main id="main-content">
+    <section class="page-hero section-padding">
+      <div class="container narrow-container">
+        <p class="eyebrow">Contact me</p>
+        <h1>Let’s connect</h1>
+        <p>
+          I am currently learning frontend development and improving through daily practice. You can use this form for feedback, guidance, or collaboration ideas related to beginner frontend learning.
+        </p>
+      </div>
+    </section>
 
-            <nav class="site-nav" aria-label="Main navigation">
-                <a href="index.html">Home</a>
-                <a href="index.html#about">About</a>
-                <a href="index.html#skills">Skills</a>
-                <a href="index.html#projects">Projects</a>
-                <a href="contact.html" aria-current="page">Contact</a>
-            </nav>
+    <section class="section-padding contact-section" id="contact-form">
+      <div class="container contact-grid">
+        <aside class="contact-info" aria-label="Contact information">
+          <h2>Find me online</h2>
+          <p>
+            I am documenting my frontend learning progress through GitHub and improving this portfolio as I learn more.
+          </p>
+          <div class="contact-links">
+            <a href="https://github.com/mdshahnawazakhtar1478-cmyk" target="_blank" rel="noopener noreferrer">View GitHub Profile</a>
+            <a href="https://www.linkedin.com/in/md-shahnawaz-akhtar-9a1b4a1b7/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+          </div>
+        </aside>
 
-        </div>
+        <form class="contact-form" action="#" method="post">
+          <h2>Send a message</h2>
 
-    </header>
+          <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" required />
+          </div>
 
-    <main id="main-content">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+          </div>
 
-        <section class="page-hero section-padding">
+          <div class="form-group">
+            <label for="phone">Phone Number <span>(optional)</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
+          </div>
 
-            <div class="container narrow-container">
-                <p class="eyebrow">Contact me</p>
-                <h1>Let's connect</h1>
-                <p>I am currently learning frontend development and improving through daily practice. You can use this form for feedback, guidance, or collaboration ideas related to beginner frontend learning.</p>
+          <div class="form-group">
+            <label for="reason">Reason for Contact</label>
+            <select id="reason" name="reason" required>
+              <option value="">Select a reason</option>
+              <option value="feedback">Portfolio feedback</option>
+              <option value="learning">Learning guidance</option>
+              <option value="collaboration">Collaboration idea</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <fieldset>
+            <legend>Preferred contact method</legend>
+            <div class="radio-group">
+              <label for="contact-email">
+                <input type="radio" id="contact-email" name="contactMethod" value="email" required />
+                Email
+              </label>
+              <label for="contact-phone">
+                <input type="radio" id="contact-phone" name="contactMethod" value="phone" />
+                Phone
+              </label>
             </div>
+          </fieldset>
 
-        </section>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Write your message here" required></textarea>
+          </div>
 
-        <section class="section-padding contact-section" id="contact-form">
+          <label class="checkbox-label" for="permission">
+            <input type="checkbox" id="permission" name="permission" required />
+            I agree to be contacted regarding this message.
+          </label>
 
-            <div class="container contact-grid">
-                <aside class="contact-info" aria-label="contact information">
-                    <h2>Find me online</h2>
-                    <p>
-                        I am documenting my frontend learning progress through GitHub and improving this portfolio as I learn more.
-                    </p>
-                    <div class="contact-links">
-                        <a href="https://github.com/mdshahnawazakhtar1478-cmyk" target="_blank" rel="noopener noreferrer">View GitHub profile</a>
-                        <a href="https://www.linkedin.com/in/md-shahnawaz-akhtar-9a1b4a1b7/" target="_blank" rel="noopener noreferrer">Connect on Linkedin</a>
-                    </div>
-                </aside>
+          <button class="button button-primary" type="submit">Submit Message</button>
+          <p class="form-note">This is a static beginner project form. It is designed for layout and accessibility practice only.</p>
+        </form>
+      </div>
+    </section>
+  </main>
 
-                <form class="contact-form" action="#" method="post">
-                    <h2>Send a message</h2>
-
-                    <div class="form-group">
-                        <label for="full-name">Full Name</label>
-                        <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" required/>
-                    </div>
-
-                    <div class="form-group">
-                        <label for email>Email Address</label>
-                        <input type="text" id="email" name="email" placeholder="Enter your email" required/>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="phone">Phone Number <span>(Optional)</span></label>
-                        <input input="tel" id="phone" name="phone" placeholder="Enter your phone number"/>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="reason">Reason for Contact</label>
-                        <select id="reason" name="reason" required>
-                            <option value="">Select a reason</option>
-                            <option value="feedback">Portfolio feeedback</option>
-                            <option value="learning">Learning guidance</option>
-                            <option value="collaboration">Collaboration idea</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-
-                    <fieldset>
-                        <legend>Preferred contact method</legend>
-                        <div class="radio-group">
-                            <label for="contact-email">
-                                <input type="radio" id="contact-email" name="contactMethod" value="email" required/>
-                                Email
-                            </label>
-                            <label for="contact-phone">
-                                <input type="radio" id="contact-phone" name="contactMethod" value="phone"/>
-                                Phone
-                            </label>
-                        </div>
-                    </fieldset>
-
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" row="6" placeholder="Write your message here" required></textarea>
-                    </div>
-
-                    <label class="checkbox-label" for="permission">
-                        <input type="checkbox" id="permission" name="permission" required/>
-                        I agree to be contacted regarding this message.
-                    </label>
-
-                    <button class="button button-primary" type="submit">Submit Message</button>
-                    <p class="form-note">This is a static beginner project form. It is designed for layout and accessibility practice only.</p>
-
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <div class="container footer-content">
-            <p>Made with focus and consistency by Md Shahnawaz Akhtar.</p>
-            <a href="index.html">Back to home</a>
-        </div>
-    </footer>
-    
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>Made with focus and consistency by Md Shahnawaz Akhtar.</p>
+      <a href="index.html">Back to home</a>
+    </div>
+  </footer>
 </body>
 </html>
