@@ -1,0 +1,119 @@
+/* Base styles*/
+:root {
+  --color-bg: #f7f8fb;
+  --color-surface: #ffffff;
+  --color-surface-soft: #eef3ff;
+  --color-text: #172033;
+  --color-muted: #667085;
+  --color-border: #d9e0ee;
+  --color-primary: #355cff;
+  --color-primary-dark: #1735b8;
+  --color-accent: #11a37f;
+  --shadow-soft: 0 20px 60px rgba(15, 23, 42, 0.08);
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+  --container-width: 1120px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+body {
+    margin:0%;
+    font-family:"Inter", Arial, sans-serif;
+    line-height: 1.6;
+    color:var(--color-text);
+    background:
+     radial-gradient(circle at top left, rgba(53, 92, 255, 0.12), transparent 32rem),
+    radial-gradient(circle at top right, rgba(17, 163, 127, 0.1), transparent 28rem),
+    var(--color-bg);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    color: inherit;
+}
+
+p, ul, ol {
+    margin-top: 0;
+}
+
+h1, h2, h3 {
+    margin: 0 0 16px;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: clamp(2.5rem,7vw, 5.4rem);
+    letter-spacing: -0.08em;
+}
+
+h2 {
+    font-size: clamp(2rem, 4vw, 3.25rem);
+  letter-spacing: -0.05em;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+.container {
+    width: min(92%, var(--container-width));
+    margin: 0 auto;
+}
+
+.narrow-container {
+    max-width: 760px;
+}
+
+.section-padding {
+    padding: 96px 0;
+}
+
+.muted-section {
+  background: rgba(255, 255, 255, 0.46);
+  border-top: 1px solid rgba(217, 224, 238, 0.7);
+  border-bottom: 1px solid rgba(217, 224, 238, 0.7);
+}
+
+.skip-link {
+  Position: absolute;
+  left: 16px;
+  top: -60px;
+  z-index: 100;
+  padding: 10px 14px;
+  color: #ffffff;
+  background: var(--color-primary);
+  border-radius: 999px;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+  color: var(--color-primary-dark);
+  font-weight: 800;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+
+
