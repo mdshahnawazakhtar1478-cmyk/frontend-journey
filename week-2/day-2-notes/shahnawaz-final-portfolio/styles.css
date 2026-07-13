@@ -175,3 +175,14 @@ h3 {
 .page-hero p {
   color: var(--color-muted);
 }
+
+/* Header and Navigati0n*/
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: rgba(247, 248, 251, 0.82);
+    border-bottom: 1px solid rgba(217, 224, 238, 0.75);
+    backdrop-filter: blur(18px);
+}
