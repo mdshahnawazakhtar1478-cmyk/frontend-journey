@@ -186,3 +186,55 @@ h3 {
     border-bottom: 1px solid rgba(217, 224, 238, 0.75);
     backdrop-filter: blur(18px);
 }
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color:var(--color-text);
+    text-decoration: none;
+}
+
+.brand-mark {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    color: #ffffff;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+    border-radius: 16px; 
+}
+
+.brand strong,
+.brand small {
+    display: block;
+}
+
+.brand small {
+    color: var(--color-muted);
+    font-size: 0.82rem;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.site-nav a {
+  padding: 9px 12px;
+  color: var(--color-muted);
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 999px;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible,
+.site-nav a[aria-current="page"] {
+  color: var(--color-primary-dark);
+  background: rgba(53, 92, 255, 0.08);
+}
