@@ -159,3 +159,19 @@ h3 {
     background: rgba(255, 255, 255, 0.74);
     border-color: var(--color-border); 
 }
+
+.section-heading {
+    max-width: 720px;
+    margin-bottom: 36px;
+}
+
+.section-heading p:last-child,
+.content-card p,
+.project-card p,
+.skill-card p,
+.goal-card p,
+.timeline-item p,
+.contact-info p,
+.page-hero p {
+  color: var(--color-muted);
+}
