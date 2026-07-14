@@ -257,3 +257,53 @@ h3 {
     color: var(--color-muted);
     font-size: clamp(16.8px, 2vw, 20px);
 }
+
+.hero-actions,
+.contact-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.hero-card,
+.content-card,
+.skill-card,
+.project-card,
+.goal-card,
+.timeline-item,
+.contact-info,
+.contact-form,
+.contact-preview-card,
+.split-panel {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(217, 224, 238, 0.88);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+}
+
+.hero-card {
+  padding: 24px;
+}
+
+.hero-card img {
+  width: 100%;
+  margin-bottom: 24px;
+  border-radius: 300px;
+  border: 1px solid var(--color-border);
+}
+
+.card-label,
+.project-tag {
+  display: inline-flex;
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  color: var(--color-primary-dark);
+  background: rgba(53, 92, 255, 0.08);
+  border-radius: 999px;
+  font-size: 12.48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.28px;
+}
+
