@@ -558,3 +558,29 @@ input[type="checkbox"] {
   color: var(--color-muted);
   font-size: 14.4px;
 }
+
+/* Footer */
+
+.site-footer {
+  padding: 28px 0;
+  color: var(--color-muted);
+  border-top: 1px solid rgba(217, 224, 238, 0.85);
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.footer-content a {
+  color: var(--color-primary-dark);
+  font-weight: 800;
+  text-decoration: none;
+}
