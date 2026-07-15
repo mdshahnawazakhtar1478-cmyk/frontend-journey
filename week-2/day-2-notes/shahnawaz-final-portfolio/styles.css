@@ -307,3 +307,130 @@ h3 {
   letter-spacing: 1.28px;
 }
 
+/*Sections and Cards*/
+
+.two-column {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    gap: 48px;
+    align-items: start;
+}
+
+.content-card {
+    padding: 32px;
+}
+
+.content-card p:last-child,
+.skill-card p:last-child,
+.project-card p:last-child,
+.goal-card p:last-child,
+.timeline-item p:last-child,
+.contact-info p:last-child,
+.page-hero p:last-child {
+  margin-bottom: 0;
+}
+
+.skills-grid,
+.goal-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;  
+}
+
+.skill-card,
+.goal-card,
+.timeline-item,
+.project-card {
+  padding: 24px;
+}
+
+.skill-card h3,
+.goal-card h3,
+.timeline-item h3,
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.85fr 0.85fr;
+  gap: 18px;
+  align-items: stretch;
+}
+
+.featured-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 340px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(238, 243, 255, 0.92));
+}
+
+.featured-project ul,
+.check-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.featured-project li,
+.check-list li {
+  position: relative;
+  margin-bottom: 12px;
+  padding-left: 30px;
+  color: var(--color-muted);
+}
+
+.featured-project li::before,
+.check-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  background: var(--color-accent);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.timeline-item span,
+.goal-card span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 18px;
+  color: #ffffff;
+  background: var(--color-primary);
+  border-radius: 14px;
+  font-weight: 900;
+}
+
+.split-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(280px, 1.05fr);
+  gap: 32px;
+  padding: 40px;
+}
+
+.contact-preview-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 40px;
+}
+
+.contact-preview-card > div:first-child {
+  max-width: 650px;
+}
