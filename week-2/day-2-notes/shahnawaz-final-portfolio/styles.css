@@ -61,7 +61,7 @@ h3 {
 }
 
 h1 {
-    font-size: clamp(40px,7vw, 86.4px);
+    font-size: clamp(32px,4vw, 74px);
     letter-spacing: -0.08em;
 }
 
