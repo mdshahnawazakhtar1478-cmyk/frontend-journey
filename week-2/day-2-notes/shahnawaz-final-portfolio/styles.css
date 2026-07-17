@@ -66,7 +66,7 @@ h1 {
 }
 
 h2 {
-    font-size: clamp(32px, 4vw, 52px);
+    font-size: clamp(32px, 4vw, 42px);
     letter-spacing: -0.05em;
 }
 
@@ -172,7 +172,7 @@ section{
 }
 
 .section-heading {
-  max-width: 720px;
+  max-width: 740px;
   margin-bottom: 36px;
 }
 
