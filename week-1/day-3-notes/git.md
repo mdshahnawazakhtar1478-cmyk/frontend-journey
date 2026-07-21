@@ -27,3 +27,6 @@ git push = push the code to repo.
 git mv = move files to new dir. ex- mv file dir
 branch created = git branch develop
 branch change = git checkout develop
+branch update = git pull
+branch merge (update changes from one branch to another) = git merge branch --no-ff
+--no-ff = no fast forwarding (it means show me all the changes and dont merge automatically, in short i want manually merge changes)
