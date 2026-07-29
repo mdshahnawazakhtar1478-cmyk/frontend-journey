@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
 }
 
-form {
+.login-form {
     display: flex;
     flex-direction: column;
     background-color: white;
