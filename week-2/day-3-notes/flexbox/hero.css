@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    height: 100vh;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+section > div {
+    border: 2px solid black;
+}
+
+section > div:first-child {
+    max-width: 550px;
+}
+
+img {
+    width: 200px;
+}
