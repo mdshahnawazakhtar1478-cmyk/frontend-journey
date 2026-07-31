@@ -1,0 +1,16 @@
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 220px;
+    border: 2px solid black;
+    background-color: gray;
+}
