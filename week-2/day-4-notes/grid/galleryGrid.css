@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* border: 2px solid blue; */
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+section {
+    /* border: 2px solid red; */
+    overflow: hidden;
+    height: auto;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    justify-content: center;
+}
+
+section > div {
+    width: 150px;
+    height: 150px;
+}
+
+section > div img {
+    width: 100%;
+    height:100%;
+}
