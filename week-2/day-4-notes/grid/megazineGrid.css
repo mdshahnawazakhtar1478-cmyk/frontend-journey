@@ -29,8 +29,22 @@ section > div {
   font-weight: bold;
 }
 
-.header  { grid-area: header; }
-.nav     { grid-area: nav; }
-.content { grid-area: content; }
-.ads     { grid-area: ads; }
-.footer  { grid-area: footer; }
+.header  { 
+  grid-area: header; 
+}
+
+.nav {
+  grid-area: nav; 
+}
+
+.content { 
+  grid-area: content; 
+}
+
+.ads { 
+  grid-area: ads; 
+}
+
+.footer {
+  grid-area: footer; 
+}
