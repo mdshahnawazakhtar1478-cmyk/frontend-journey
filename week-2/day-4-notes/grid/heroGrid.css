@@ -1,0 +1,44 @@
+body {
+    /* border: 2px solid red; */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+}
+
+section {
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: 150px 150px;
+    gap: 15px;
+
+    grid-template-areas: 
+    "hero-image hero-image hero-image"
+    "card-1 card-2 card-3"
+    ;
+}
+
+section > div {
+    border: 2px solid green;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+}
+
+.hero-image { 
+    grid-area: hero-image;
+ }
+
+.card-1 { 
+    grid-area: card-1; 
+ }
+
+.card-2 { 
+    grid-area: card-2;
+ }
+
+.card-3 { 
+    grid-area: card-3;
+ }
