@@ -1,63 +1,43 @@
-body {
-    /* border: 2px solid black; */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100vh;
-    display: grid;
-    place-items: center;
 }
 
-section{
-    /* border: 2px solid red; */
-    display: grid;
-    grid-template-columns: repeat(3, 140px);
-    grid-template-rows: 140px 240px 140px 140px;
-    gap: 15px;
+body {
+    /* border: 2px solid black; */
+    height: 100vh;
+}
 
-    grid-template-areas: 
-    "header header header"
-    "menu main main"
-    "sidebar widget-1 widget-2"
-    "footer footer footer"
-    ;
-    
+section {
+    /* border: 2px solid blue; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
 }
 
 section > div {
-    border: 2px solid blue;
-    display: grid;
-    place-items: center;
-    font-weight: bold;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.header { 
-    grid-area: header;
- }
+.header {
+    grid-column: span 3;
+}
 
-.menu { 
-    grid-area: menu; 
- }
+.menu {
+    grid-row: span 3;
+}
 
-.main { 
-    grid-area: main;
- }
+.main {
+    grid-column: span 2;
+    grid-row: span 2;
+}
 
-.sidebar { 
-    grid-area: sidebar;
- }
-
-.widget-1 { 
-    grid-area: widget-1;
- }
-
-.widget-2 { 
-    grid-area: widget-2;
- }
-
-.footer { 
-    grid-area: footer;
- }
-
-
-
+.footer {
+    grid-column: span 3;
+}
