@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    /* border: 2px solid black; */
+    height: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 16px;
+}
+
+section > div {
+    border: 2px solid red;
+    height: 200px;
+}
+
+.image-2 {
+    grid-row: span 3;
+    height: 600px;
+}
+
+.image-3 {
+    grid-row: span 3;
+    height: 600px;
+}
+
+.image-5 {
+    grid-row: span 2; 
+    height: 400px;
+}
+
+.image-6 {
+    grid-row: span 3;
+    height: 600px;
+}
+
+.image-7 {
+    grid-row: span 3;
+    height: 600px;
+}
+
+.image-8 {
+    grid-row: span 3;
+    height: 600px;
+}
+
+.image-9 {
+    grid-row: span 3;
+    height: 600px;
+}
+
+.image-10 {
+    grid-row: span 2;
+    height: 400px;
+}
+
+.image-11 {
+    grid-row: span 2;
+    height: 400px;
+}
+
+.image-12 {
+    
+}
