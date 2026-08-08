@@ -16,6 +16,9 @@ section {
 section > div {
     border: 2px solid red;
     height: 200px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
 }
 
 .image-2 {
@@ -65,4 +68,49 @@ section > div {
 
 .image-12 {
     
+}
+
+.image-14 {
+    grid-row: span 3;
+    height: 600px;
+}
+
+.image-15 {
+    grid-row: span 2;
+    height: 400px;
+}
+
+.image-16 {
+    grid-row: span 3;
+    height: 600px;
+}
+
+.image-17 {
+    grid-row: span 2;
+    height: 400px;
+}
+
+.image-19 {
+    grid-row: span 2;
+    height: 400px;
+}
+
+.image-20 {
+    grid-row: span 2;
+    height: 400px;
+}
+
+.image-21 {
+    grid-row: span 3;
+    height: 600px;
+}
+
+.image-22 {
+    grid-row: span 2;
+    height: 400px;
+}
+
+.image-23 {
+    grid-row: span 3;
+    height: 600px;
 }
