@@ -21,96 +21,14 @@ section > div {
     place-items: center;
 }
 
-.image-2 {
+.image-2, .image-3, .image-6, .image-7, .image-8,
+.image-9, .image-14, .image-16, .image-21, .image-23 {
     grid-row: span 3;
     height: 600px;
 }
 
-.image-3 {
-    grid-row: span 3;
-    height: 600px;
-}
-
-.image-5 {
-    grid-row: span 2; 
-    height: 400px;
-}
-
-.image-6 {
-    grid-row: span 3;
-    height: 600px;
-}
-
-.image-7 {
-    grid-row: span 3;
-    height: 600px;
-}
-
-.image-8 {
-    grid-row: span 3;
-    height: 600px;
-}
-
-.image-9 {
-    grid-row: span 3;
-    height: 600px;
-}
-
-.image-10 {
+.image-5, .image-10, .image-11, .image-15, .image-17,
+.image-19, .image-20, .image-22 {
     grid-row: span 2;
     height: 400px;
-}
-
-.image-11 {
-    grid-row: span 2;
-    height: 400px;
-}
-
-.image-12 {
-    
-}
-
-.image-14 {
-    grid-row: span 3;
-    height: 600px;
-}
-
-.image-15 {
-    grid-row: span 2;
-    height: 400px;
-}
-
-.image-16 {
-    grid-row: span 3;
-    height: 600px;
-}
-
-.image-17 {
-    grid-row: span 2;
-    height: 400px;
-}
-
-.image-19 {
-    grid-row: span 2;
-    height: 400px;
-}
-
-.image-20 {
-    grid-row: span 2;
-    height: 400px;
-}
-
-.image-21 {
-    grid-row: span 3;
-    height: 600px;
-}
-
-.image-22 {
-    grid-row: span 2;
-    height: 400px;
-}
-
-.image-23 {
-    grid-row: span 3;
-    height: 600px;
 }
