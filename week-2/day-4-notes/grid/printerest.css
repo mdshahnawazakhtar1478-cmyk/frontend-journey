@@ -24,7 +24,7 @@ section > div {
 .image-2, .image-3, .image-6, .image-7, .image-8,
 .image-9, .image-14, .image-16, .image-21, .image-23 {
     grid-row: span 3;
-    height: 600px;
+    height: 480px;
 }
 
 .image-5, .image-10, .image-11, .image-15, .image-17,
