@@ -7,11 +7,11 @@ let d = 40;
 let sum = a+b+c+d;
 console.log("Sum of a, b, c, d is " + sum)
 
-let substarct = b-a;
-console.log("substarct of b, a is " + substarct)
+let substarction = b-a;
+console.log("substarction of b, a is " + substarction)
 
-let multiple = b*c;
-console.log("multiple of b, c is " + multiple)
+let multiplication = b*c;
+console.log("multiplication of b, c is " + multiplication)
 
-let divide = d/b;
-console.log("Divided of d, b is " + divide)
+let division = d/b;
+console.log("division of d, b is " + division)
