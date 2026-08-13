@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.nav-left-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo {
+    color: #e50924;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav-left {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-left a, .nav-right a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.kid {
+    color: antiquewhite;
+}
+
+.profile-icon {
+    background-color: #e50924;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.hero {
+    width: 100%;
+    height: 90vh;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-button {
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+.intro {
+    position: absolute;
+    bottom: 120px;
+    left: 60px;
+    color:rgb(215, 214, 196);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.movie-box {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.movie-card {
+    height: 250px;
+    border: 2px solid white;
+    color: white;
+}
+
+.popular {
+    display: block;
+    color: whitesmoke;
+    margin: 40px 0;
+    padding: 10px;
+}
+
+.playing {
+    display: block;
+    color: whitesmoke;
+    margin: 40px 0;
+    padding: 10px;
+}
+
+.movie-box-2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: white;
+    gap: 15px;
+}
+
+.playing-card {
+    height: 250px;
+    border: 2px solid white;
+}
