@@ -120,3 +120,13 @@ body {
     height: 250px;
     border: 2px solid white;
 }
+
+.movie-card > img {
+    height: 100%;
+    width: 100%;
+}
+
+.playing-card > img {
+    height: 100%;
+    width: 100%;
+}
