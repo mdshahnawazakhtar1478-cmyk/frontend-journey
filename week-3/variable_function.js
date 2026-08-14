@@ -20,3 +20,13 @@ function substraction(a, b){
 
 let sub = substraction(a, b);
 console.log(sub(8, 5))
+
+/* multiplication */
+
+function multiplication(a, b){
+    let ab = a * b;
+    return ab;
+}
+
+let multi = multiplication(a, b);
+console.log(multi(4,5))
