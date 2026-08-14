@@ -30,3 +30,13 @@ function multiplication(a, b){
 
 let multi = multiplication(a, b);
 console.log(multi(4,5))
+
+/* division */
+
+function division(a, b){
+    let ab = a / b;
+    return ab;
+}
+
+let div = division(a, b);
+console.log(div(24, 4))
