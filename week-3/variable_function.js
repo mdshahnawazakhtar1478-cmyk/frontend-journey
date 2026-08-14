@@ -10,3 +10,13 @@ console.log(sum(5, 7))
 
 let Total = sum(15, 20);
 console.log(Total)
+
+/* substraction */
+
+function substraction(a, b){
+    let ab = a-b;
+    return ab;
+}
+
+let sub = substraction(a, b);
+console.log(sub(8, 5))
