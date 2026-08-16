@@ -166,3 +166,35 @@ body {
         display: none;
     }
 }
+
+/* Mobile */
+
+@media (max-width: 480px){
+    .nav-left-container {
+        gap: 0;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .nav-left {
+        gap: 10px;
+    }
+
+    .nav-right {
+        gap: 10px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .nav-left a, .nav-right a{
+       font-size: 12px; 
+    }
+
+    .kid {
+        display: none;
+    }
+}
