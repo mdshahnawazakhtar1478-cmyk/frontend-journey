@@ -138,3 +138,31 @@ body {
     height: 100%;
     width: 100%;
 }
+
+/* Tablet */
+
+@media (max-width: 760px){
+    .nav-left-container {
+        gap: 15px;
+    }
+
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .nav-left {
+        gap: 15px;
+    }
+
+    .nav-right {
+        gap: 15px;
+    }
+
+    .kid {
+        display: none;
+    }
+}
