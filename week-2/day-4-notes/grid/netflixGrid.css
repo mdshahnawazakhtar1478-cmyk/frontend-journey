@@ -187,6 +187,20 @@ body {
         padding: 14px 25px;
         font-size: 14px;
     }
+
+    .movie-box {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    }
+
+    .playing-card {
+        height: 200px;
+    }
+
+    .movie-box-2 {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    } 
 }
 
 /* Mobile */
@@ -240,5 +254,19 @@ body {
     .hero-button > button {
         padding: 12px 20px;
         font-size: 20px;
+    }
+
+    .movie-box {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .playing-card {
+        height: 160px;
+    }
+
+    .movie-box-2 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 }
