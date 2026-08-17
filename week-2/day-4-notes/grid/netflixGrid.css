@@ -183,7 +183,7 @@ body {
         gap: 14px;
     }
 
-    .hero-button {
+    .hero-button > button {
         padding: 14px 25px;
         font-size: 14px;
     }
@@ -218,5 +218,27 @@ body {
 
     .kid {
         display: none;
+    }
+
+    .hero {
+        height: 60vh;
+    }
+
+    .intro {
+        bottom: 600px;
+        left: 30px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .hero-button {
+        bottom: 520px;
+        left: 30px;
+        gap: 10px;
+    }
+
+    .hero-button > button {
+        padding: 12px 20px;
+        font-size: 20px;
     }
 }
