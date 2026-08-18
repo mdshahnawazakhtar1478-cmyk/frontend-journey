@@ -88,6 +88,10 @@ body {
     font-weight: 600;
 }
 
+.movies {
+    padding: 16px;
+}
+
 .movie-box {
     /* border: 2px solid red; */
     display: grid;
@@ -188,6 +192,10 @@ body {
         font-size: 14px;
     }
 
+    .movies {
+        padding: 12px;
+    }
+
     .movie-box {
         grid-template-columns: repeat(3, 1fr);
         gap: 12px;
@@ -254,6 +262,10 @@ body {
     .hero-button > button {
         padding: 12px 20px;
         font-size: 20px;
+    }
+
+    .movies {
+        padding: 10px;
     }
 
     .movie-box {
