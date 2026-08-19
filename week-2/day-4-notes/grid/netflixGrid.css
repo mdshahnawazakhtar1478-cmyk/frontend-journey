@@ -82,6 +82,7 @@ body {
 .hero-button > button:hover {
     color: red;
     font-weight: 300;
+    transition: 0.4s;
 }
 
 .intro {
