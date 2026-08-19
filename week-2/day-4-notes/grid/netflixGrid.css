@@ -77,12 +77,13 @@ body {
     padding: 18px 35px;
     font-size: 22px;
     border-radius: 20px;
+    transition: 0.4s;
 }
 
 .hero-button > button:hover {
     color: red;
     font-weight: 300;
-    transition: 0.4s;
+    transform: scale(1.05);
 }
 
 .intro {
@@ -229,9 +230,11 @@ body {
     }
 
     .nav-left {
-        gap: 10px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
         padding: 0 20px;
     }
 
