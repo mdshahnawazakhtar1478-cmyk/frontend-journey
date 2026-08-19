@@ -79,6 +79,11 @@ body {
     border-radius: 20px;
 }
 
+.hero-button > button:hover {
+    color: red;
+    font-weight: 300;
+}
+
 .intro {
     position: absolute;
     bottom: 200px;
