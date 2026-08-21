@@ -25,3 +25,20 @@ function orderMedicine(orderlist){
 let orderlist = ["pan_d", "ascoril", "paracetemol"]
 let package = orderMedicine(orderlist)
 console.log(package)
+
+let medicine_list = package[0]
+console.log(medicine_list)
+let price_list = package[1]
+console.log(price_list)
+
+function sum(prices){
+    let total = 0
+    for (let i = 0; i < prices.length; i = i+1) {
+        let price = prices[i]
+        total = total + price
+    }
+    return total
+}
+
+let total_price = sum(price_list)
+console.log(total_price)
