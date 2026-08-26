@@ -11,14 +11,21 @@ section {
     gap: 10px;
     grid-template-columns: repeat(6, 1fr);
     padding: 16px;
+    background-color: red;
 }
 
 section > div {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 200px;
     border-radius: 20px;
     display: grid;
     place-items: center;
+}
+
+section > div > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
 
 .image-2, .image-3, .image-6, .image-7, .image-8,
