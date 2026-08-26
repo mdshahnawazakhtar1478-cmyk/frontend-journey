@@ -196,14 +196,14 @@ body {
     }
 
     .hero-button {
-        bottom: 400px;
+        bottom: 380px;
         left: 40px;
         gap: 14px;
     }
 
     .hero-button > button {
         padding: 14px 25px;
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .movies {
@@ -273,7 +273,7 @@ body {
     }
 
     .hero-button {
-        bottom: 520px;
+        bottom: 480px;
         left: 30px;
         gap: 10px;
     }
@@ -281,6 +281,8 @@ body {
     .hero-button > button {
         padding: 12px 20px;
         font-size: 20px;
+        width: 150px;
+        height: 68px;
     }
 
     .movies {
