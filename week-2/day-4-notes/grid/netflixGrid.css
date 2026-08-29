@@ -292,14 +292,14 @@ body {
     }
 
     .intro {
-        bottom: 500px;
+        bottom: 600px;
         left: 30px;
         font-size: 30px;
         font-weight: 400;
     }
 
     .hero-button {
-        bottom: 350px;
+        bottom: 480px;
         left: 30px;
         gap: 10px;
     }
