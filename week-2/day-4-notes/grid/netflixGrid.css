@@ -241,6 +241,14 @@ body {
         gap: 12px;
     }
 
+    .movie-card > a {
+        font-size: 18px;
+    }
+
+    .playing-card > a {
+        font-size: 18px;
+    }
+
     .playing-card {
         height: 200px;
     }
@@ -318,6 +326,14 @@ body {
     .movie-box {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+    }
+
+    .movie-card > a {
+        font-size: 18px;
+    }
+
+    .playing-card > a {
+        font-size: 18px;
     }
 
     .playing-card {
